@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: marketplace/Dockerfile
     environment:
-      RECOMMENDATIONS_HOST: spencerofwiti/microservices-grpc-recommendations
+      RECOMMENDATIONS_HOST: recommendations
     image: spencerofwiti/microservices-grpc-marketplace
     networks:
       - microservices
